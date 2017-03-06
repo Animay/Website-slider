@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Awesome slider</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div class="container">
+  <div class="sliderimages fade">
+    <div class="num">1 / 3</div>
+    <img src="1.jpg" style="width:100%">
+    <div class="text">one</div>
+  </div>
+
+  <div class="sliderimages fade">
+    <div class="num">2 / 3</div>
+    <img src="2.jpg" style="width:100%">
+    <div class="text">Two</div>
+  </div>
+
+  <div class="sliderimages fade">
+    <div class="num">3 / 3</div>
+    <img src="3.jpg" style="width:100%">
+    <div class="text">Three</div>
+  </div>
+
+  <a class="prev" onclick="slider(-1)">&#10094;</a>
+  <a class="next" onclick="slider(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+</body>
+</html>
